@@ -1,0 +1,486 @@
+@media only screen and(max-width:1920px) {
+	div.ground-tabs ul.ground-nav li a {font-size: 13px;}
+}
+@media only screen and(max-width:1600px) {
+	div.ground-tabs ul.ground-nav li a {font-size: 13px;}
+}
+@media only screen and(max-width:1366px) {
+	div.ground-tabs ul.ground-nav li a {font-size: 13px;}
+}
+
+@media only screen and (max-width:1280px) {
+	div.ground-tabs ul.ground-nav li a {font-size: 13px;}
+}
+@media only screen and (max-width:1023px) {
+	div.hdr-main a.logo{ width:90px; padding-left:0;}
+	div.notifi-dd.desk-only{display:none;}
+	div.notifi-dd.mobile-only{display:block; text-align:center;}
+	div.notifi-dd{ right:55px;}
+	div.popup-notification{ top:42px; right:-60px; width:255px;}
+	div.notifi-dd{ top:18px;}
+	div.notifi-dd a .fa{ font-size:20px;}
+	div.notifi-dd a span{ right:-3px;}
+	
+	#nav-icon{display:block;}
+	div.open{ position:fixed !important; top:83px !important;}
+	div.menu-wrap{ position:fixed; width:100%; height:100%; padding:50px 0px 0px; overflow:auto; top:0; left:-100%; background:#222; transition: all 400ms cubic-bezier(0.17, 0.04, 0.03, 0.94); -moz-transition: all 400ms cubic-bezier(0.17, 0.04, 0.03, 0.94); -webkit-transition: all 400ms cubic-bezier(0.17, 0.04, 0.03, 0.94); z-index:10;}
+	div.menu-wrap.active{ left:0px;}
+	ul.main-menu li{ float:left; width:100%; margin:0px; padding:0px; position:relative; border-bottom:1px solid #333;}
+	ul.main-menu li a:after, ul.main-menu li a.active:after{ display:none;}
+	ul.main-menu li a{ float:left; width:100%; height:50px; line-height:50px; border-bottom:1px solid #000; margin:0px; padding:0px;}
+	div.usr-name{position:relative; right:auto; top:auto; width:100%; text-align:center; line-height:50px;}
+	div.usr-name a.login, a.login-register{ float:none; display:inline-block; line-height:50px; height:50px; background-position:8px 15px; padding-top:0px;}
+	a.login-register{position:relative; right:auto; top:auto; text-align:center; line-height:50px;}
+	div.usr-name ul.dd{float:left;  visibility:visible; opacity:1; position:relative; top:auto; width:100%; left:auto; margin:0px; padding-top:0px;}
+	div.mob-pnp-menu{ display:block;}
+	div.ground-tabs{ height:auto; }
+	div.ground-tabs div.wrapper{ padding:0px;}
+	div.ground-tabs ul.ground-nav{ height:auto;}
+	div.ground-tabs ul.ground-nav li{ width:100%; height:auto; position:relative;}
+	div.ground-tabs ul.ground-nav li:before{ content:'\f054'; font-family:'fontAwesome'; height:20px; width:20px; position:absolute; top:20px; right:15px; color:#fff; text-align:center; font-size:18px;}
+	div.ground-tabs ul.ground-nav li.active:before{ content:'\f078'; color:#000;}
+	div.ground-tabs ul.ground-nav li ul.ground-sub-nav li:before{ display:none;}
+	div.ground-tabs ul.ground-nav li:last-child div.skew{ border:0;}
+	div.ground-tabs ul.ground-nav li div.skew{ transform:none; width:100%; border:0;border-bottom:1px solid rgba(0,0,0,0.4);}
+	div.ground-tabs ul.ground-nav li a{ transform:none; width:100%; height:auto; font-size:15px; line-height:20px; padding:18px 10px;}
+	div.ground-tabs:after{ display:none;}
+	div.ground-tabs ul.ground-nav li ul.ground-sub-nav{ position:relative; top:auto; left:auto; background:#111;}
+	div.ground-tabs ul.ground-nav li ul.ground-sub-nav li a{ border-bottom:1px solid rgba(255,255,255,0.1);}
+	div.payn-play{ padding:0px 10px;}
+	div.payn-play div.wrapper{ padding:0px;}
+	div.quick-info .wrapper{ padding:0px 20px;}
+	/*--------------my-homepage---------------*/
+	ul.home-banner li div.data{ bottom:170px;}
+	ul.home-banner li div.data h2{ font-size:30px; line-height:30px;}
+	ul.home-banner li div.data h1{ font-size:50px; line-height:50px;}
+	div.section.book-slot{ padding:25px 0;}
+	.book-slot h2{ font-size:26px; line-height:48px; width:40%; padding-left:100px; margin:0px;}
+	a.sec-logo{ width:80px; top:-17px;}
+	a.sec-logo.astr-sprt{ width:150px; top:0; transform:none;}
+	.book-slot ul.form-list li{ padding:0px 0px 0px 10px;}
+	.book-slot ul.form-list{ float:right; width:60%; margin:0px; padding-right:150px;}
+/*	.book-slot h2{ width:100%; font-size:32px;} 
+	.book-slot ul.form-list{ width:100%; margin:10px 0 0 0;}*/
+	.book-slot ul.form-list li div.select-field.date{ padding:0 1px 0 35px;}
+	ul.plyer-list{ text-align:center;}
+	ul.plyer-list li{ max-width:270px; width:100%; margin:0 -2px 50px;}
+	ul.plyer-list li div.data{ height:auto;}
+	.event .title{ display:none;}
+	.event h3{ display:block}
+	.event-list li div.img-box{ background-image:none !important; position:relative; width:100%; height:auto; min-height:auto;}
+	.event-list li div.img-box img.mobile-only{ display:block;}
+	.event-list li div.data{ width:100%; padding:50px 0px 70px 0px; min-height:auto;}
+	.event-list li div.data div.wrapper{ max-width:100%;}
+
+	.event .slick-dots{ width:100%; left:0; margin-left:0; bottom:30px; text-align:center;}
+	ul.infra-list li div.img-box, ul.infra-list li div.inside{ width:100%;}
+	ul.infra-list li{ margin:20px 0px 0px;}
+	ul.infra-list li div.inside, ul.infra-list li.csr div.inside{ padding:20px 0;}
+	h2.title{ font-size:35px; line-height:35px;}
+	div.ftr-top div.col.stay-connected, 
+	div.ftr-top div.col.form-field,
+	div.ftr-top div.col.findus,div.ftr-top div.col.social,
+	div.ftr-top div.col.email{ width:50%; background-position:0 0; }
+	div.ftr-top div.col.email{padding-left:53px;}	
+	ul.membership-type li{ width:50%; padding:0 10px 50px;}
+	div.left-panel, div.sidebar{ width:100%; margin:0}
+	.pg-content.cnfrm-bkng div.chkout-login{ padding:0 10px;}
+	ul.positions-list li a{ font-size:16px;}
+	ul.player-info li{ width:25%;}
+	div.sidebar.mrgtop{ margin-top:20px;}
+	ul.confirm-booking li.total-payment .payment-left, .total-payment .payment-right{ width:100%; margin:0 0 20px 0;}
+	ul.confirm-booking li.total-payment .payment-left{ padding:15px 0 0 0; border-top:1px solid #444; margin:0 ;}
+	div.payment-left label{ width:100%; margin:0 0 10px 0;}
+	div.address-wrap div.list-wrap{ text-align:left;}
+	div.address-wrap div.list-wrap h2{ text-align:center;}
+	div.address-wrap div.list-wrap ul li{ padding:0px 15px; float:none; display:inline-block; width:33.3333%; margin:0px -2px 30px; vertical-align:top; text-align:left;}
+	ul.main-menu li.generate-qr{ display:block;}
+	ul.main-menu li.generate-qr a:before{ margin-top:15px;}
+	ul.gallery-list{ padding:50px 0px;}
+	ul.gallery-list li{ width:50%;}
+	div.wrapper.group-booking-data{ padding:0px;}
+	ul.gridbox{ margin-top:10px;}
+	ul.gridbox li{ width:50%;}
+	div.memb-cat{ padding:0px;}
+	
+	.sitemap-dta{ text-align:left;}
+	.sitemap-dta ul.st-map{ width:45%; margin:0px 0px 30px 0px;}
+	.sitemap-dta ul.st-map li{ width:100%;}
+	div.usr-name.log-reg.mobile-only{ display:block;}
+	div.usr-name.log-reg{ width:100%; right:0;}
+	.pg-content.gal{ padding:30px 0px 0px;}
+	
+	ul.confirm-booking ul.payment-data li div.col-1, ul.confirm-booking ul.payment-data li div.col-2,
+	ul.confirm-booking ul.payment-data li div.col-3, ul.confirm-booking ul.payment-data li div.col-4, 
+	ul.confirm-booking ul.payment-data li div.col-5{ width:50%;}
+	/*header-changed*/
+	a.right-logo{ width:140px; right:auto; left:100px; padding-right:0; padding-left:5px; border-left: 1px solid rgba(204,204,204,0.4);}
+	div.usr-name.desk-only{ display:none;}
+	div.usr-name.mobile-only{ display:block;}
+	div.header-top div.hdr-right{ width:260px;}
+	.book-slot ul.form-list li div.select-field{ background-position:10px center;}
+	.book-slot ul.form-list li div.select-field select{ padding:0px 30px 0px 35px;}
+	.pageScroll{ display:none;}
+	
+}
+@media only screen and (max-width:767px) {
+	div.payn-play ul.tbl-payn-play.fix-col{ position:absolute; left:0; width:100px !important; z-index:1; padding:0px;}
+	div.tbl-grid{ width:calc(100% - 100px); overflow:auto;}
+	div.payn-play ul.tbl-payn-play li.time{ width:100px;}
+	div.payn-play ul.tbl-payn-play li.time ul li, div.payn-play ul.tbl-payn-play li ul h3{ font-size:12px;}
+	div.quick-info span{ font-size:14px;}
+	 div.mxpopup.booking-popup{ width:90% !important; max-height:80% !important; top:10% !important; margin-top:0 !important; overflow:auto;  left:5% !important; margin-left:0 !important;}
+	 div#mxalert, div.mxdialog{width:90% !important; left:5% !important; margin-left:0 !important;}
+	ul.booking-list{ max-height:none;}
+	div.booking-popup-inside .button{ font-size:12px; padding:0px 20px 0px 47px; background-position:13px center; margin-bottom:15px;}
+	div.user-profile div.row{ padding:20px 15px 15px;}
+	div.user-profile ul.form-list li.half{ width:100%;}
+	div.user-profile div.row h2{ margin:0;}
+	div.cnfrm-bkng h2{ margin-bottom:15px;}
+	ul.home-banner li div.data{ width:80%; left:10%; margin-left:0px; top:50%; transform:translatey(-50%); bottom:auto;}
+	ul.home-banner li div.img-box img{ display:none;}
+	ul.home-banner li div.img-box img.mob-only{ display:block;}
+	ul.plyer-list li{ max-width:370px;}
+	.total-payment .payment-right div{ font-size:14px; line-height:20px;}
+	ul.confirm-booking{ margin:30px 0px 0px;}
+	.total-payment .payment-right{ margin:0px 0px 15px 0px;}
+	
+	.pg-content.cnfrm-bkng div.chkout-login{ padding:0px 0px 10px 0px; margin:0px;}
+	.pg-content.cnfrm-bkng div.chkout-login.guest{ padding:10px 0px 0px;}
+	.pg-content.cnfrm-bkng div.chkout-login{ width:100%;}
+	div.chkout-login.guest:before{ top:0; left:50%; width:240px; height:1px; margin-left:-120px; margin-top:0;}
+	div.cnfrm-bkng h2{ font-size:19px;}
+	div.cnfrm-bkng h4{ font-size:18px; margin:10px 0 5px;}
+	ul.confirm-booking li{ padding:15px; margin:0px 0px 15px 0px;}
+	div.user-profile div.row{ margin:0px 0px 15px 0px; padding:20px 15px 15px;}
+	div.user-profile div.row.half, div.user-profile div.row.half.calendar{ padding:20px 15px 15px;}
+	div.cal-info{ padding:0px 0px 0px 15px !important;}
+	ul.gb-time-row li.day-chkbox{ width:100%;}
+	ul.gb-time-row li.day-chkbox span{ width:98px;}
+	ul.gb-time-row li.day-chkbox span:before, ul.gb-time-row li.day-chkbox span:after{content:"";}
+	div.group-booking-date{ padding:15px 0px 20px; background:none; box-shadow:none;}
+	div.date-field{ float:left; width:42%; margin:0px 10px 0px 0px;}
+	div.date-field .text { width:100%; background-size:16px; background-position:9px center; padding-left:30px;}
+	div.date-field label{ display:none;}
+	a.add-btn{ right:0px;}
+	ul.gb-time-row li.price{ padding-top:0px; float:left;}
+	ul.gb-time-row li.price label{line-height:40px;}
+	ul.gb-time-row{ padding:15px 10px;}
+	ul.gb-time-row li span{ margin:10px 7px 0px 0px; padding:0px 9px 0px 0px}
+	div.pay-type-tab a{ width:48%; margin-bottom:5px; padding:12px 20px;}
+	ul.pay-type-form{ margin:15px 0px 0px;}
+	
+	div.tbl-responsive{ overflow:auto; margin:20px 0px 0px; max-height:none;}
+	div.tbl-responsive table{ width:940px;}
+	div.user-profile div.row.row-2 div.tbl-responsive table, div.view-details-popup div.tbl-order-list table{ width:1200px;}
+	div.view-details-popup table td.user-billing-info{ width:100%;}
+	div.tbl-responsive.top-scored-table table{ width:100%;}
+	div.view-details-popup strong center{ text-align:left;}
+	div.tbl-responsive table td{ padding:5px 10px;}
+	div.colapse.add-qr{ width:100%;}
+	div.user-profile div.row.half{ width:100%;}
+	.home-event .slick-arrow{ top:45px;}
+	.home-event.home-event .slick-arrow{ top:25%;}
+	
+	div.section.book-slot div.wrapper{ padding:0 5px 0px 10px;}
+	.book-slot.stick h2{ padding:0px 0px 0px 70px; }
+	.book-slot.stick ul.form-list{padding:0px 120px 0px 0px;}
+	.book-slot h2{ width:34%; font-size:20px; line-height:28px; margin:6px 0px 6px 0px; text-align:center; padding:0px;}
+	.book-slot ul.form-list{ padding:0px;}
+	.book-slot ul.form-list li.half, .book-slot ul.form-list li{ width:50%; padding:0 5px; }
+	.book-slot ul.form-list li .button{ padding:0px;}
+	a.sec-logo{ width:70px; /*top:0;*/ left:5px;}
+	ul.confirm-booking ul.payment-data li div.col-6{ top:auto; bottom:0px; right:-30px;}
+	ul.group-payment li div.col-6{ right:-30px;}
+	div.row .chart{ width:300px;}
+	
+	/*cys----*/
+	div.cys-main{ padding:25px 15px 15px 15px;}
+	ul.cys-list li{ width:100%; padding:0 0 25px;}
+	a.sec-logo.astr-sprt{ width:130px;}
+	.book-slot ul.form-list{ width:65%;}
+	
+	div.pg-banner.faq{ background-image:url(../images/FAQs-mobile-banner.png);}
+	div.pg-banner.partner-banner{ background-image:url(../images/Partner-with-us-mobile-banner.jpg);}
+	div.pg-banner.about-banner{ background-image:url(../images/About us-mobile-banner.png);}
+	div.pg-banner.disclaimer-banner{ background-image:url(../images/Disclaimer-mobile-Banner.png);}
+	div.pg-banner.terms-condition-banner{ background-image:url(../images/T&Cs-mobile-Banner.png);}
+	div.pg-banner.privacy-policy-banner{ background-image:url(../images/Privacy-Policy-mobile-Banner.png);}
+	div.pg-banner.leagues-banner{ background-image:url(../images/Leagues-Banner.png);}
+	div.pg-banner.membership-banner{ background-image:url(../images/Membership-mobile-banner.png);}
+	div.pg-banner.partner-banner{ background-image:url(../images/Partner-With-Us-Banner.png);}
+	div.pg-banner.sitemap-banner{ background-image:url(../images/Sitemap-mobile-banner.png);}
+	div.pg-banner.special-event-banner{ background-image:url(../images/Special-events-mobile-banner.png);}
+	div.pg-banner.pnp{ background:none;}
+	div.pg-banner .overlay{ position:absolute; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.3); z-index:1;}
+	div.pg-banner.static-page{ background-image:url(../images/banner-about.jpg);}
+	div.pg-banner.fitness{ background-image:url(../images/Fitness-mobile-banner.png);}
+	div.pg-banner.leagues{ background-image:url(../images/Leagues-mobile-banner.jpg);}
+	div.pg-banner.gallery{ background-image:url(../images/Gallery-mobile-banner.png);}
+	div.pg-banner.member{ background-image:url(../images/banner-membership.jpg);}
+	div.pg-banner.market{ background-image:url(../images/Marketplace-mobile-banner.png);}
+	div.pg-banner.schedule-b{ background-image:url(../images/banner-fitness.jpg);}
+	div.pg-banner.contact{ background-image:url(../images/Contact-us-moblie-banner.png);}
+	div.pg-banner.infra{ background-image:url(../images/banner-infra.jpg);}
+	div.pg-banner.csr{ background-image:url(../images/CSR-mobile-banner.jpg);}
+	div.pg-banner.thankyou{ background-image:url(../images/banner-thankyou.jpg);}
+	div.pg-banner{ height:auto;}
+	div.pg-banner img{ max-width:100%;}
+	.mob{ display:inline-block;}
+	
+
+}
+@media only screen and (max-width:639px) {
+	/*--------------my-homepage---------------*/
+	div.section.book-slot, div.section.book-slot.stick{ padding:10px 0;}
+	
+	.book-slot h2{ font-size:22px; width:100%;}
+	.book-slot ul.form-list{ width:100%;}
+	.button{ font-size:14px;}
+	.book-slot ul.form-list li .button{ max-width:100%; height:36px; line-height:36px;} 
+	.book-slot div.select-field,
+	.book-slot div.select-field select, 
+	.book-slot div.select-field input.text, textarea, ul.confirm-booking ul.payment-data li textarea{ height:36px; line-height:36px;}
+	.book-slot div.select-field:before{ font-size:16px; line-height:36px; height:36px; width:30px;}
+	.book-slot ul.form-list li div.select-field select{ padding:0 25px}
+	.book-slot ul.form-list li div.select-field{ background-size:14px; background-position:6px center;}
+	.book-slot ul.form-list li div.select-field.date{ padding:0 1px 0 20px;}
+	.book-slot ul.form-list li div.form-field .text{ padding:7px;}
+	ul.plyer-list li{ width:100%;}
+	ul.home-banner li div.data h1{ font-size:40px; line-height:40px;}
+	ul.home-banner li div.data h2{ font-size:30px; line-height:30px;}
+	div.section.sec-player{ padding:35px 0;}
+	ul.plyer-list{ padding:0; margin:35px 0px 0px;}
+	h1.title{ font-size:36px; line-height:36px;}
+	.event-list li div.data{ padding:30px 0 70px 0;}
+	.event h3{ font-size:30px; line-height:30px; margin:0 0 20px 0;}
+	.event-list li div.data h4{ font-size:20px;}	
+	.event-list li div.data p, ul.infra-list li div.data p{  font-size:16px; line-height:21px;}
+	.slick-dots li button{ width:10px; height:10px; padding:0}
+	h2.title{ font-size:30px; line-height:30px;}
+	div.ftr-top div.col.stay-connected{ width:100%; margin:0 0 20px 0;}
+	div.ftr-top div.col.form-field{ width:100%; }
+	div.ftr-top div.col.findus{ width:100%; padding-left:51px; background-position:0px 0; margin:0 0 20px 0;} 
+	div.ftr-top div.col.email, div.ftr-top div.col.social{ width:100%; margin:0 0 20px 0;}
+	div.ftr-top div.col.social ul{ border-top:1px solid #444; text-align:center; padding-top:20px;}
+	div.ftr-top div.col.social { margin-bottom:5px;}
+	div.ftr-top div.col h4{ font-size:20px;}
+	div.ftr-top div.col h5{ font-size:16px;}
+	div.ftr-main ul{ text-align:left; padding:0px 15px;}
+	div.ftr-main li{ width:33.3333%; padding:0 20px 0 0;}
+	div.ftr-main ul.ftr-nav-btm li{ margin:0px 10px 7px 0px;}
+	div.ftr-main ul.ftr-nav-btm li.desk{display:none;}
+	div.ftr-main ul.ftr-nav-btm li.mob{display:block; padding:15px 0px 0px; margin:10px 0px 0px; border-top:1px solid #444;}
+	div.pg-banner h1{ font-size:32px; line-height:32px;}
+	div.memb-cat h2{ font-size:20px;}
+	ul.membership-type li{ width:100%; padding:0 10px 25px;}
+	ul.membership-type li div.membshp-name h4{ font-size:22px;}
+	ul.membership-type li div.membshp-name h5{ font-size:18px;}
+	.editor-data{ padding:15px;}
+	.editor-data p img{ width:100% !important; margin-bottom:2%; margin-right:0 !important;}
+	ul.league-list li div.img-box{ width:100%; height:auto;}
+	ul.league-list li div.img-box img{ height:auto;}
+	ul.league-list li div.details{ position:relative; width:100%; padding:25px 20px 30px;}
+	div.pg-title h3{ font-size:22px;}
+	ul.league-list li div.details h1{ font-size:18px;}
+	ul.league-list li div.details p{ margin:0 0 30px 0;}
+	div.sidebar div.widget-info h3{ font-size:18px;}
+	div.registration ul.form-list{ margin:10px 0px 0px 0px;}
+	ul.form-list li, .pg-content.membership ul.form-list li, .pg-content.membership ul.form-list li.half, ul.form-list li.half, ul.pay-type-form.full li{ width:100%; padding:0; margin:0px 0px 12px;}
+	.pg-content.membership ul.form-list li:last-child, .pg-content.membership ul.form-list li.half:last-child, ul.form-list li.half:last-child{margin:0px;}
+	.pg-content.membership div.divider:before, div.divider:after{ width:100%; left:0; margin-left:0;}
+	.pg-content.membership ul.form-list li div.chkbox{ text-align:center; padding:0}
+	ul.form-list.book-summary li{ max-width:100%;}
+	div.reg-type a{ font-size:14px; margin:0px 15px 15px 0;}
+	div.ftr-top{ padding:30px 0 10px;}
+	div.ftr-main{ padding:30px 0 15px;}
+	.btnChangePass{ float:left; width:100%; margin:5px 0px;}
+	div.colm{ text-align:left;}
+	div.chkout-login ul.form-list{ margin:10px 0;}
+	ul.player-info li{ width:33.3333%;}
+	/*div.tbl-responsive{ overflow:auto; margin:20px 0px 0px; max-height:none;}
+	div.tbl-responsive table{ width:840px;}
+	div.tbl-responsive.top-scored-table table{ width:100%;}*/
+	.slick-arrow{ width:30px; height:30px;}
+	div.ground-tabs{ margin:0px 0px 10px 0px;}
+	div.quick-info span{ font-size:11px; line-height:20px; margin:15px 10px 15px 0px;}
+	div.quick-info .wrapper{ text-align:center;}
+	div.quick-info .wrapper .button{ float:none; display:inline-block; text-align:center; width:100%;}
+	ul.booking-list li{ padding:15px; position:relative;}
+	ul.booking-list li.heading{ display:none;}
+	ul.booking-list li div.col{ position:relative; padding-left:75px; width:100%; margin-bottom:5px;}
+	ul.booking-list li div.col.col-1:before, 
+	ul.booking-list li div.col.col-2:before,
+	ul.booking-list li div.col.col-3:before{position:absolute; left:0; top:0; width:70px; color:#000; font-weight:600;}
+	ul.booking-list li div.col.col-1:before{content:"Grounds:";  width:100%;}
+	ul.booking-list li div.col.col-2:before{content:"Slot Date:";  width:100%;}
+	ul.booking-list li div.col.col-3:before{content:"Slot Time:";  width:100%;}
+	ul.booking-list li div.col.col-4{ position:absolute; width:30px; height:30px; text-align:center; padding:0px; right:5px; bottom:11px;}
+	ul.booking-list li div.col.col-4 a{ float:left; width:100%; text-align:center;}
+	ul.booking-list li div.col.col-4 .fa{ line-height:30px; width:100%;}
+	ul.booking-list li div.col .fa{ float:right;}
+	/*Common------*/
+	div#mxalert, div.mxdialog, div.mxpopup{ padding:20px;}
+	.button, input.text, div.select-field, iv.select-field select, div.select-field:before, ul.form-list li div.form-field div.saved-info, 
+	div.ftr-top div.col.form-field .btn, div.select-field select{ height:40px; line-height:40px;}
+	
+	ul.form-list li label, div.payment-left label, ul.form-list div.chk-box span{ font-size:14px;}
+	div.user-credit span{padding-left:24px;}
+	div.payment-left label{ margin:0px 0px 5px 0px;}
+	/*Common End------*/
+	ul.pro-tabs{ margin:10px 0px 15px; width:102%; padding:0px 0px;}
+	ul.pro-tabs li { float:left; width:48%; margin:0px 2% 7px 0px; padding:0px 5px; font-size:14px; background:#000; height:40px; line-height:40px; border:1px solid #777;}
+	ul.pro-tabs li a{font-size:13px; margin:0px;}
+	ul.qr-list li div.promo label{ width:100%; line-height:20px;}
+	div.promo span{ margin-top:0px;}
+	ul.qr-list li div.promo .text{ width:100%; margin:0px;}
+	ul.qr-list li div.promo .button{ position:relative; float:right; margin:-40px 0px 0px;}
+	#content{margin-top:0px;}
+	
+	div.user-profile div.row h4{ margin-top:20px;}
+	.editor-data p, .editor-data span, .editor-data div, .editor-data li{ line-height:20px;}
+	.editor-data h2{ font-size:20px;}
+	div.pg-title{ margin:0px;}
+	div.pg-title h3 small{ margin:0px 0px 10px 0px;}
+	
+	div.pg-banner h1{ font-size:24px; line-height:24px; margin-top:-22px;}
+	
+	ul.tbl-schedule{ position:relative; padding:10px; margin:0px;}
+	ul.tbl-schedule li.time{ position:absolute; left:0; width:80px; padding:10px 5px;}
+	ul.tbl-schedule li { width:100%; padding:10px 10px 10px 80px; border:0; font-size:12px; }
+	ul.tbl-schedule li:last-child{margin:0px;}
+	ul.schedule-table-nav li a{ font-size:14px;}
+	ul.tbl-schedule li span.team, ul.tbl-schedule li div.vs{ text-align:center;}
+	div.league-table .button{ float:none; display:inline-block; width:49%; font-size:12px; padding:0px 5px;}
+	div.position-wrap{ float:left; width:100%; margin:20px 0px; padding:15px 0px; position:relative; background:#000; overflow:auto;}
+	ul.positions-list{ margin:0px; padding:0px; width:560px; text-align:left;}
+	ul.positions-list li a{ position:relative; font-size:14px;}
+	ul.positions-list li a:after{ content:""; position:absolute; left:0; bottom:-14px; width:100%; height:3px; background:#000;}
+	ul.positions-list li a.active:after, ul.positions-list li a:hover:after{background:#82c64d;}
+	div.popup.market-place-popup div.img-box{ width:20%; margin-top:4px;}
+	div.popup.market-place-popup div.details{ width:70%; padding:0px; margin:0px 0px 0px 5%;}
+	div.popup.market-place-popup div.details label{ font-size:15px;}
+	div.popup.market-place-popup div.details p{ font-size:14px; line-height:20px;}
+	div.address-wrap div.list-wrap ul li{ width:50%;}
+	div.address-wrap div.list-wrap{ padding:5px 0px 0px;}
+	
+	div.league-info div.cta.reg input.text, div.league-info div.cta.reg .button{ width:100%;}
+	ul.home-banner li div.data{ width:80%; left:10%; top:50%;}
+	ul.home-banner .slick-arrow.slick-next{ right:0;}
+	ul.home-banner .slick-arrow.slick-prev{ left:0;}
+	
+	ul.gridbox li{ width:100%; padding:10px 0px 0px;}
+	ul.gridbox li div.box div.data{ width:100%;}
+	.sitemap-dta ul.st-map{ width:48%;}
+	.sitemap-dta ul.st-map li { margin:0px 0px 15px 0px; }
+	.sitemap-dta ul.st-map li a{ font-size:14px; line-height:18px;}
+	ul.offer-list li div.data div.description{ height:auto;}
+	ul.offer-list li{ width:100%; padding:0px;}
+	div.cal-info p{ width:100%; text-align:left; margin-bottom:10px !important;}
+	div.qr-box{ max-width:100%;}
+	div.league-info div.cta.reg .button{ margin-left:0px;}
+	ul.form-list li label.auto{ margin-top:3px;}
+	ul.form-list li div.form-field.radio{ padding-top:5px;}
+	.pg-content.contc{ background-image:url(../images/pg-bg.png); background-attachment:auto; background-size:auto; background-repeat:repeat;}
+	ul.confirm-booking ul.payment-data li div.col-1, ul.confirm-booking ul.payment-data li div.col-2,
+	ul.confirm-booking ul.payment-data li div.col-3, ul.confirm-booking ul.payment-data li div.col-4, 
+	ul.confirm-booking ul.payment-data li div.col-5{ width:100%; padding:0px;}
+	ul.group-payment, ul.payment-data{ padding:0px 0px 0px 0px;}
+	ul.confirm-booking ul.payment-data li div.col-5{ padding:0px 0px 40px 0px;}
+	ul.group-payment li div.col-6{ right:3px; top:-40px;}
+	ul.confirm-booking ul.payment-data li div.col-6{ right:0; bottom:0px;}
+	ul.confirm-booking ul.payment-data li:last-child div.col-6{ bottom:-15px;}
+	ul.qr-list li{ padding:0px;}
+	div.user-profile ul.form-list li.half.cta .button{ max-width:100%; width:100%;}
+	div.colapse.add-qr.col-3 ul.qr-list li{ width:100%;}
+	div.join-form h2, div.league-info h2{ margin:10px 0px 5px 0px;}
+	
+	div.promo a.view-offer{ float:left; margin:10px 0px 0px 0px;}
+	
+	/*cys----*/
+	ul.cys-list li div.content{ padding:10px;}
+	ul.cys-list li div.content h3{ font-size:16px;}
+	ul.cys-list li div.content p{ font-size:14px; line-height:20px;}
+	ul.cys-list li div.content .button{ padding:0px 18px 0px 50px;}
+	/*stick-new---*/
+	.book-slot.stick a.sec-logo{ position:relative; display:inline-block; float:none; /*vertical-align:bottom;*/}
+	a.sec-logo{ left:0; top:0;}
+	a.sec-logo.astr-sprt{ width:150px;}
+	.book-slot.stick ul.form-list, .book-slot.stick h2{ padding:0;}
+	
+} 
+@media only screen and (max-width:590px) {
+	ul.gallery-list{ padding:30px 0px; text-align:center;}
+	ul.gallery-list li{ width:300px; margin:0px 0px 50px;}
+	ul.gallery-list li div.gal-title{ margin:-190px 0px 0px -2px; position:relative; height:auto; padding:150px 0px 15px; overflow:auto;}
+	ul.gallery-list li div.gal-title span{ float:left; width:100%; margin:0px; padding:0px 10px; height:auto; position:relative; left:auto; bottom:auto;}
+	ul.gallery-list li div.gal-title span span{ position:relative; text-align:center; transform:none; left:auto; top:auto;}
+	ul.gallery-list li a{ margin:0px 0px 0px -15px; height:255px; font-size:14px;}
+	ul.gallery-list li:last-child{ margin-bottom:0px;}
+	
+	div.pay-type-tab a{ font-size:14px;}
+	.sitemap-dta ul.st-map{ width:100%; text-align:center; margin:0px 0px 20px 0px; padding:0px 0px 10px 0px; border-bottom:1px solid #444;}
+	.sitemap-dta ul.st-map:last-child{ border:0; margin:0;}
+	.sitemap-dta ul.st-map li { margin:0px 0px 10px 0px; }
+	.sitemap-dta ul.st-map li a{ float:none; display:inline-block;}
+	div.colapse.add-qr{ padding:0px;}
+	ul.offer-list li div.data p.date.Added{ margin-bottom:5px;}
+	
+	ul.plyer-list li div.cta{bottom:-21px;}
+	.generate-qr h1, .generate-qr h2{ font-size:20px;}
+	
+	ul.gb-time-row li ul.ul-time-chkbox li{ width:48%;}
+	ul.ul-time-chkbox li ul.slot-type-list li{ width:100% !important;}
+	ul.ul-time-chkbox li div.popup-book-slot ul.slot-type-list li a{ padding:0px 0px 0px 26px; background-position:5px 0px;}
+	ul.gb-time-row li ul.ul-time-chkbox li span{ padding:14px 5px; font-size:12px;}
+	ul.gb-time-row li ul.ul-time-chkbox li.grp-half-left span, ul.gb-time-row li ul.ul-time-chkbox li.grp-half-right span{ font-size:11px; padding:9px 0px 3px 7px;}
+	div.user-credit{ margin:6px 0px 0px;}
+	div.user-credit input { margin:5px 5px 0px 0px;}
+	div.colm{ margin:0px;}
+	
+}
+@media only screen and (max-width:480px) {
+	div.header-top div.wrapper{padding:0px 10px;}
+	div.header-top a.get-in{ font-size:10px;}
+	div.header-top a.get-in .fa{ font-size:12px;}
+	div.header-top div.hdr-right{ width:196px;}
+	div.header-top ul.hdr-social{ margin:0px;}
+	div.header-top ul.hdr-social li{padding:0px 0px 0px 8px;}
+	div.header-top div.hdr-right div.select-field select{ font-size:13px;}
+	/*--------------my-homepage---------------*/
+	ul.home-banner li div.data h1{ font-size:32px; line-height:32px;}
+	ul.home-banner li div.data h2{ font-size:24px; line-height:24px;}
+	.slick-arrow.slick-next{ right:20px;} 
+	.slick-arrow.slick-prev{ left:20px;}
+	div.promo input.text{ width:100%;}
+	ul.confirm-booking li.total-payment div.promo .button{ float:right; margin:-40px 0 0 0; width:70px; background-image:none; padding:0px 10px; position:relative; font-size:14px; }
+	ul.confirm-booking li.total-payment div.promo div.promo input.text{ padding-right:80px;}
+	div.reg-type a{ font-size:12px; margin:0px 6px 15px 0;}
+	ul.player-info li{ width:50%; margin:0px -2px 10px;}
+	div.address-wrap div.list-wrap h2{ font-size:24px; text-align:left; padding-left:10px;}
+	div.address-wrap ul.adrs-list{ padding:15px 0px 0px 0px;}
+	div.address-wrap div.list-wrap ul li{ width:100%; margin:0px 0px 20px 0px; padding:0px 12px;}
+	div.address-wrap ul.adrs-list li h4{ font-size:16px; line-height:24px;}
+	div.address-wrap ul.adrs-list li p{ font-size:14px; line-height:20px;}
+	div.ftr-main li{ width:50%; padding:0 10px 0 0 ; }
+	
+	a.right-logo{ left:90px; padding-left:3px;}
+	div.hdr-main a.logo{ padding-right:3px; top:-7px;}
+	
+}
+@media only screen and (max-width:414px) {
+	ul.gb-time-row{ padding:15px 20px;}
+	ul.gb-time-row li span{ margin:10px 10px 0px 0px; padding:0px 10px 0px 0px}
+}
+@media only screen and (max-width:380px) {
+	/*--------------my-homepage---------------*/	
+	
+}
+
+@media only screen and (max-width:360px) {
+	ul.gb-time-row{ padding:15px 10px;}
+	ul.gb-time-row li span{ margin:10px 7px 0px 0px; padding:0px 9px 0px 0px}
+
+	
+}
+

@@ -1,0 +1,50 @@
+/*.ground-nav li a.active{color:#F00;}
+.tbl-payn-play li ul li {border: 1px solid;width: 100% !important;margin: 5px;height:36px; position: relative;}
+.tbl-payn-play li{float:left;width:12%;}
+ul.tbl-payn-play li ul li a {float: left;width: 100%;height: 36px;font-size: 13px;}
+li.lapsed{background-color: #666;}
+li a.booked{background-color: #E1170F;}
+ul.slotarray li.active a.active{background-color: #39E10F;}
+.booking-popup #book-list-data ul li{width: 100%;float: left;list-style-type: none;}
+#book-list-data .col {font-size: 15px;float: left;padding:5px;}
+#book-list-data .col-1 {width: 40%;}
+#book-list-data .col-2 {width: 20%;}
+#book-list-data .col-3 {width: 25%;}
+#book-list-data .col-4 {width: 5%;}
+#book-list-data{width:850px;}
+li.heading div{font-weight:bold;}
+.booking-popup .booking-list{float: left;height: 400px;overflow-y: auto;}
+#confirm-booking-continue,#confirm-booking{float:right;}
+li.half a.second-half{float:right !important;}
+li.half a{width:50% !important;}
+ul.tbl-payn-play li ul li div.popup-book-slot{float:left;width:102px;min-height:52px;padding:6px 10px 22px;z-index:10;position:absolute;left:50%;bottom:42%;margin-left:-61px}
+.slot-type-list{ float:left; width:100%; margin :0px; padding:0px; position:relative; list-style-type:none; background: #CCC;}
+div.payn-play h3{font-size: 15px !important;}
+.pay-type-tab{width:100%;}
+.pay-type-tab a {
+	height: 30px;
+	background-color: #CCC;
+	padding: 20px;
+}
+.pay-type-wrapp .colapse {
+	width: 100%;
+	float: left;
+	margin-top: 31px;
+}
+.confirm-booking li{margin-bottom: 15px;width:100%;float:left;}
+a.member-logged-in {right: 115px !important;}
+
+ul.group-payment li{list-style: none; float: left;width: 100%;}
+ul.group-payment li div.col{ float:left;width:15%;padding:10px; }
+ul.group-payment li div.no-use {float: left; width:100%;}
+h3,h1{margin:0}
+.total-payment .payment-left,.total-payment .payment-right{width:50%;float: left;}
+.total-payment .payment-right div{text-align: right;}
+#content{text-align: center;margin-top:50px;}
+.chkbox {width: auto;float: left;}
+.rightAlign{text-align: right;}
+.leftAlign{text-align: left;}
+.centerAlign{text-align: center;}
+/*ul.gb-time-row li {width: 100%;float: left;}*/
+
+/*------------------sitemap--------------------*/
